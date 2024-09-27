@@ -1,2 +1,29 @@
-# super_trunfo
-Jogo Super Trunfo em Java 
+# Super Trunfo
+Jogo Super Trunfo em Java <br>
+
+**Objetivo**: Desenvolver um jogo de cartas semelhante ao Trunfo, utilizando a linguagem Java em um ambiente de console. O jogador competirá contra o computador, onde ambos terão um conjunto de 10 cartas. 
+
+Requisitos do Jogo:
+1. Estrutura das Cartas: <br>
+a.  Cada carta deve conter 4 atributos (`Força`, `defesa`, `inteligência` e `fadiga`) com valores numéricos. <br>
+b.  As cartas podem ser representadas por uma classe `Carta` que contém os atributos<br>
+e seus respectivos valores. Usar a biblioteca random para selecionar os valores dos atributos em cada rodada 
+2. Mecanismo do Jogo:<br>
+a.  O jogo deve permitir que o jogador e o computador joguem alternadamente.<br>
+b.  Em cada rodada, o jogador deve escolher um atributo da carta para disputar com o
+computador.<br>
+c.  As regras serão, para os atributos `força`, `inteligência` e `defesa`, ganha quem tiver o maior valor do atributo, a exceção é a `fadiga` ganha quem tiver o menor valor.<br>
+d.  O computador deve escolher um atributo de forma aleatória (ou de forma inteligente, se implementar a IA).<br>
+e.  O jogador que tiver o atributo com o valor mais alto ganha a rodada e recebe um
+ponto.
+3. Controle de Placar:<br>
+a.  O placar deve ser exibido a cada rodada, mostrando a pontuação do jogador e do
+computador.<br>
+b.  Ao final das 10 rodadas, o jogo deve exibir quem é o vencedor, baseado na pontuação 
+total.
+
+**Entrega**:<br>
+• O código deve ser bem organizado e comentado.
+
+
+
